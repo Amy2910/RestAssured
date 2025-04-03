@@ -19,7 +19,7 @@ public class CreateUserTest {
                 .post()
                 .then()
                 .statusCode(201)
-                .body("job", equalTo("Développeuse"))
+                .body("job", equalTo("Developpeuse"))
                 .body("name", equalTo("Alice"))
                 .body("id", notNullValue())
                 .log().all()
